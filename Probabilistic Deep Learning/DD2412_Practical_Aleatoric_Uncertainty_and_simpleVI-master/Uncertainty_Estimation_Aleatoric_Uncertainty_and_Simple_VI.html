@@ -8798,7 +8798,6 @@ The final trained homoscedastic standard deviation for clean data is:  0.0273319
 
 <span class="c1"># add the likelihood's Gaussian's standard dev to the list of parameters</span>
 <span class="n">params_homo_model_homo_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sigma_param</span><span class="p">)</span>
-
 <span class="c1"># Defining an optimizer in Jax</span>
 <span class="n">opt_init</span><span class="p">,</span> <span class="n">opt_update</span><span class="p">,</span> <span class="n">get_params</span> <span class="o">=</span> <span class="n">optimizers</span><span class="o">.</span><span class="n">adam</span><span class="p">(</span><span class="n">step_size</span><span class="p">)</span>
 <span class="n">opt_state</span> <span class="o">=</span> <span class="n">opt_init</span><span class="p">(</span><span class="n">params_homo_model_homo_data</span><span class="p">)</span>
