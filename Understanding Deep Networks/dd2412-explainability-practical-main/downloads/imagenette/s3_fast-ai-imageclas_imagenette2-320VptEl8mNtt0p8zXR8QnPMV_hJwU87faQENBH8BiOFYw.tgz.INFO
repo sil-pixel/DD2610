@@ -1,0 +1,1 @@
+{"dataset_names": ["imagenette"], "original_fname": "imagenette2-320.tgz", "url_info": {"checksum": "569b4497c98db6dd29f335d1f109cf315fe127053cedf69010d047f0188e158c", "filename": "imagenette2-320.tgz", "size": 341663724}, "urls": ["https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-320.tgz"]}
